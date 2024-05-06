@@ -5,3 +5,5 @@
 ## LLD - 1 - TODO LIST (DATA PERSISTED)
 
 - Phase 1 | with plain vanilla JavaScript | ✅
+
+- Phase 2 | with react + typescript | ✅
