@@ -6,6 +6,6 @@
 
 - Phase 1 | with plain vanilla JavaScript
 
-  - start date & time | 6 may 2024 | 2:00 pm
+  - start date & time | 6 may 2024 | 2:00 pm - 6:42 pm ✅
 
   - start date & time | 6 may 2024 | 2:00 pm
