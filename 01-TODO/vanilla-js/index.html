@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List - vanilla js</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main>
+      <!-- form section to add item to list  -->
+      <section class="form border flex flex-col items-center m-4 p-2">
+        <h1 class="text-slate-700 font-box text-2xl mb-4">
+          Add item to the list
+        </h1>
+        <form action="">
+          <input
+            type="text"
+            name="item-input"
+            id="item-input"
+            placeholder="enter item to list"
+            class="p-2 m-2 border"
+          />
+          <button
+            class="bg-slate-800 text-white p-2 m-2 rounded add-item"
+            type="submit"
+          >
+            add item
+          </button>
+        </form>
+      </section>
+
+      <!-- list section to display list items  -->
+      <section
+        class="border flex flex-col items-center m-4 p-2 todo-list-section"
+      >
+        <h1 class="text-slate-700 font-box text-2xl mb-2">Todo List</h1>
+        <div class="todo-list">
+          <ol class="list-decimal"></ol>
+        </div>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
