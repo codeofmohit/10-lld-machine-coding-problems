@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
-import Todo from "./components/Todo";
+import TodoApp from "./components/TodoApp";
 import { loadFromLs } from "./utils/localStorageHelper";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     loadFromLs();
   }, []);
 
-  return <Todo />;
+  return <TodoApp />;
 }
 
 export default App;

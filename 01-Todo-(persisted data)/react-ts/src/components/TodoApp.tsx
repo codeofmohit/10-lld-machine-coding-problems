@@ -4,7 +4,7 @@ import { addToLs } from "../utils/localStorageHelper";
 import ItemsList from "./ItemsList";
 import { itemList } from "../Types";
 
-const FormToAddItems = () => {
+const TodoApp = () => {
   const [itemString, setItemString] = useState<string>("");
   const [itemList, setItemList] = useState<itemList>([]);
 
@@ -50,4 +50,4 @@ const FormToAddItems = () => {
     </>
   );
 };
-export default FormToAddItems;
+export default TodoApp;
